@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en-CA' ng-app='bundle_landing'>
+<head>
+  <base href='/'>
+  <meta charset='UTF-8'>
+  <title>Bundle</title>
+
+  <!-- Behavioral Meta Data -->
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='apple-mobile-web-app-capable' content='yes'>
+  <meta name='viewport' content='width=device-width, user-scalable=no'>
+
+  <!-- Import Styles -->
+  <link rel='stylesheet' type='text/css' href='min/materialize.min.css'>
+  <link rel='stylesheet' type='text/css' href='css/main.css'>
+
+  <!-- Angular JS -->
+  <script src='min/angular.min.js'></script>
+  <script src='min/angular-route.min.js'></script>
+
+  <!--Import jQuery before materialize.js-->
+  <script src='min/jquery.min.js'></script>
+  <script src='min/materialize.min.js'></script>
+  <script src='min/angular-socialshare.min.js'></script>
+  <script src='app.js'></script>
+  <script src='js/controllers/landing.js'></script>
+
+</head>
+
+<body>
+  <!-- Includes page view -->
+  <div class='fullscreen' ng-view></div>
+</body>
+
+</html>

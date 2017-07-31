@@ -1,0 +1,66 @@
+@media only screen and (max-width: 900px) {
+  .desktop-only {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 901px) {
+  .mobile-only {
+    display: none !important;
+  }
+
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  border: 0px;
+  padding: 0px;
+}
+
+.fullscreen {
+  height: 100%;
+  width: 100%;
+  border: 0px;
+  padding: 0px;
+}
+
+#container {
+  background: linear-gradient(180deg, #ff5c61, #9cebee);
+  background-size: 300% 300%;
+
+  -webkit-animation: Fader 30s ease infinite;
+  -moz-animation: Fader 30s ease infinite;
+  animation: Fader 30s ease infinite;
+}
+
+@-webkit-keyframes Fader {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes Fader {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes Fader {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+
+#logo {
+  /*position: absolute;*/
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}

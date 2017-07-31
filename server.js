@@ -53,7 +53,3 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
-
-app.listen(5000, function () {
-  console.log('Example app listening on port 5000!')
-})

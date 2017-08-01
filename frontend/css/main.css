@@ -31,12 +31,12 @@ body {
 }
 
 #container {
-  background: linear-gradient(180deg, #ff5c61, #9cebee);
-  background-size: 300% 300%;
+  background: linear-gradient(180deg, #FF5C61, #FF7A5C);
+  background-size: 400% 400%;
 
-  -webkit-animation: Fader 30s ease infinite;
-  -moz-animation: Fader 30s ease infinite;
-  animation: Fader 30s ease infinite;
+  -webkit-animation: Fader 10s ease infinite;
+  -moz-animation: Fader 10s ease infinite;
+  animation: Fader 10s ease infinite;
 }
 
 @-webkit-keyframes Fader {
@@ -63,4 +63,5 @@ body {
   right: 0;
   top: 0;
   bottom: 0;
+  width: 30%;
 }

@@ -1,9 +1,8 @@
 var express = require('express');
 var router = express.Router();
 
-// var images = require('./controllers/images.js');
+var email = require('./controllers/email.js');
 
-// images
-// router.post('/content/tag', images.tag);
+router.post('/addEmail', email.send);
 
 module.exports = router;

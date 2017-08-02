@@ -15,8 +15,8 @@
   }
 
   #macbook {
-    margin-left: -60%;
-    width: 220%;
+    margin-left: -50%;
+    width: 200%;
   }
 }
 
@@ -25,10 +25,11 @@ html, body, .fullscreen {
   width: 100%;
   border: 0px;
   padding: 0px;
+  color: #fafafa;
 }
 
 #background-container {
-  background: linear-gradient(180deg, #FF5C61, lightblue);
+  background: linear-gradient(180deg, #FF5C61, darkblue);
   background-size: 400% 400%;
 
   -webkit-animation: Fader 10s ease infinite;
@@ -61,11 +62,24 @@ html, body, .fullscreen {
   width: 60%;
   margin-left: 20%;
 }
-#messenger-button {
-  margin-left: 44%;
-  width: 12%;
-}
 
 .container {
   height: 100%;
+}
+
+.send-button {
+  padding: 0px 10px 0px 10px;
+  /*margin-bottom: -1em;*/
+  font-size: 2em !important;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.send-button-container {
+  text-align: center;
+}
+
+.material-icons {
+  color: white;
 }

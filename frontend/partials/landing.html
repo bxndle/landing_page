@@ -4,9 +4,32 @@
         <div class='col s8 offset-s2 m6 offset-m3 l4 offset-l4 valign'>
           <!-- <h3>Coming soon.</h3> -->
           <br><br>
-          <img src='Macbook.png' class='valign' id='macbook'>
+          <!-- <img src='Macbook.png' class='valign' id='macbook'> -->
+          <img src='imac.png' class='valign' id='macbook'>
           <img src='bundle_logo.png' class='valign' id='logo'>
-          <!-- <a href='fb-messenger://share?link=http://joinbundle.com'><img src='Facebook_Messenger_logo.png' class='valign' id='messenger-button'></a> -->
+          <form>
+            <div class='row'>
+              <div class='input-field col s10 m8 offset-m1'>
+                <input id='email' type='email' class='validate' ng-model='email' autocomplete='off'>
+                <label for='email' data-error='Invalid email' >Email</label>
+              </div>
+              <div class='input-field col s2 send-button-container'>
+                <a class='waves-effect waves-light btn-flat send-button' ng-show='showSendButton' ng-click='sendEmail()'><i class='material-icons'>send</i></a>
+                <a class='send-button' ng-show='showCheck'><i class='material-icons'>check</i></a>
+                <div class='preloader-wrapper active small' ng-show='showPreloader' style='height: 2em; width: 2em;'>
+                  <div class='spinner-layer spinner-green-only'>
+                    <div class='circle-clipper left'>
+                      <div class='circle'></div>
+                    </div><div class='gap-patch'>
+                      <div class='circle'></div>
+                    </div><div class='circle-clipper right'>
+                      <div class='circle'></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>

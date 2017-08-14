@@ -83,3 +83,7 @@ html, body, .fullscreen {
 .material-icons {
   color: white;
 }
+
+.active {
+  border: none !important;
+}

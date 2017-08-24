@@ -14,8 +14,6 @@ app.use(logger('dev'));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'frontend'), { redirect: false }));
 
-// require('./backend/models/db.js');
-// require('./backend/models/content.js');
 var routesApi = require('./backend/routes.js');
 
 app.use('/api', routesApi);
